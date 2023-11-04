@@ -1,13 +1,5 @@
 /* Add your CSS to this file */
 
-/*header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}*/
 
 .header-title {
     margin-left: 20px;
@@ -65,9 +57,11 @@ body {
     display: flex;
     align-items: center;
     padding: 40px 0;
+    
 }
 
 .stories article {
+    display: inline-flex;
     flex: 1;
     margin: 0 20px;
     background-color: #fff;
@@ -77,7 +71,9 @@ body {
 }
 
 .stories article img {
-    max-width: 100%;
+    padding-right: 21px;
+    width: 36%;
+    height: 99%;
     border-radius: 50%;
 }
 
@@ -114,62 +110,72 @@ body {
     padding: 10px 20px;
 }
 
-section {
-    margin-bottom: 40px;
-}
+
 .learn-about {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    justify-content:space-around;
-    
-    padding-left:20%;
+    padding-bottom: 21px;
 }
 
+
+.learn-about .card-body{
+    height: 216px;
+    display: inline;
+    
+}
+.cards{
+    display: inline-flex;
+    
+}
 .card {
+    margin: 7px;
+    height: 309x;
+    width: 216px;
     background-color: #fff;
     border: 1px solid #E2E8F0;
     border-radius: 5px;
-    padding: 20px;
-
+    padding: 21px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .card img {
     max-width: 100%;
-    align-items: left;
+    
 }
 
 .card h3 {
-    font-size: 21px;
-    color: #48BB78;
-    margin: 10px 0;
-    text-align: right;
+font-size: 21px;
+color: #48BB78;
+margin: 10px 0;
+
 }
 
 .card p {
     font-size: 16px;
     color: #333;
-    text-align: right;
+    
 }
 .overview-hero {
     background-color: #E2E8F0;
-    padding: 40px 0;
-    display: flex;
-    align-items: center;
+    padding: 40px 0;   
+    
 }
-
+.overview-hero .container{
+    display: inline-flex;
+}
 .overview-hero-image {
-    flex: 1;
     max-width: 50%;
 }
 
 .overview-hero-image img {
-    max-width: 100%;
+    padding-left:50%;
+    max-width: 50%  ;
 }
+
 
 .overview-hero-text {
     flex: 1;
-    padding: 0 20px;
+    padding-left: 5%;
 }
 
 .overview-hero-text h2 {
@@ -182,11 +188,6 @@ section {
     color: #333;
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 960px;
-    width: 100%;
-}
 header {
     background-color: white;
     font-size: 18px;
@@ -216,20 +217,11 @@ nav ul li a:hover {
     color: #5A67D8;
 }
 
-.overview-hero {
-    background-color: #E2E8F0;
-}
-
 .learn-about h2 {
     font-size: 24px;
     color: #48BB78;
 }
 
-.card {
-    border: 1px solid #E2E8F0;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
 
 .card-body h3 {
     font-size: 21px;
